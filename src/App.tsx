@@ -3,39 +3,39 @@ import WormholeConnect, {nttRoutes} from '@wormhole-foundation/wormhole-connect'
 function App() {
     return (
         <WormholeConnect config={{
-            network: "Testnet",
+            network: "Mainnet",
             routes: [
                 ...nttRoutes({
                     tokens: {
                         LTAI: [{
-                            chain: "BaseSepolia",
-                            token: "0x92e1d72210429Ce7eE8a0d64D526D4b9752801FF",
-                            manager: "0xc16b38Ff76393df09D917F653b24EEA7A3cbafdE",
-                            transceiver: [{address: "0x58dC1D987Cb925E778266621Ca8f95c39c37E948", type: 'wormhole'}]
+                            chain: "Base",
+                            token: "0xF8B1b47AA748F5C7b5D0e80C726a843913EB573a",
+                            manager: "0xcb66bDF296653E37bEa3D1e73f335cd8472C9261",
+                            transceiver: [{address: "0x321dbB84766c4E6D51c7F2015db20F5B9A2C5601", type: 'wormhole'}]
                         }, {
                             chain: "Solana",
-                            token: "5ooRTqmvm95bHwp4HMo3iszCwsEseY5hksfSa9EDVpBY",
-                            manager: "NTtAhS2BEN2Ek9JU7SfwLPu4MUTWVCUGkwk7DVrGya6",
-                            transceiver: [{address: "6boPo5aXJLof2brUi3REN2RjXMPj29FSekEK9iz8L4zB", type: "wormhole"}]
+                            token: "mntpN8z1d29f3MWhMD7VqZFpeYmbD88MgwS3Bkz8y7u",
+                            manager: "ntTziNUdVjNJKZXCFbSZxfmjigyBouS8YLtAp8R2Fwa",
+                            transceiver: [{address: "HNzgsJRCAcnnQXeFteFd44zgKJX9Wz9o7juA1qKZaZYB", type: "wormhole"}]
                         }]
                     },
                 }),
             ],
 
-            chains: ["BaseSepolia", "Solana"],
+            chains: ["Base", "Solana"],
             rpcs: {
-                BaseSepolia: "https://sepolia.base.org",
-                Solana: "https://api.devnet.solana.com"
+                BaseSepolia: "https://mainnet.base.org",
+                Solana: "https://rpc.ankr.com/solana"
             },
             tokensConfig: {
                 LTAIbase: {
                     key: "LTAIbase",
                     symbol: "LTAI",
-                    nativeChain: "BaseSepolia",
+                    nativeChain: "Base",
                     icon: "https://libertai.io/favicon.svg",
                     tokenId: {
                         chain: "BaseSepolia",
-                        address: "0x92e1d72210429Ce7eE8a0d64D526D4b9752801FF"
+                        address: "0xF8B1b47AA748F5C7b5D0e80C726a843913EB573a"
                     },
                     coinGeckoId: "libertai",
                     decimals: 18
@@ -47,7 +47,7 @@ function App() {
                     icon: "https://libertai.io/favicon.svg",
                     tokenId: {
                         chain: "Solana",
-                        address: "5ooRTqmvm95bHwp4HMo3iszCwsEseY5hksfSa9EDVpBY"
+                        address: "mntpN8z1d29f3MWhMD7VqZFpeYmbD88MgwS3Bkz8y7u"
                     },
                     coinGeckoId: "libertai",
                     decimals: 9
