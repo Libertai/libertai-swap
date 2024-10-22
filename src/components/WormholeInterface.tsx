@@ -1,4 +1,4 @@
-import WormholeConnect, { nttRoutes } from "@wormhole-foundation/wormhole-connect";
+import WormholeConnect, { dark, nttRoutes } from "@wormhole-foundation/wormhole-connect";
 
 export const WormholeInterface = () => (
 	<WormholeConnect
@@ -56,7 +56,13 @@ export const WormholeInterface = () => (
 					decimals: 9,
 				},
 			},
-			ui: { title: "LibertAI swap", showHamburgerMenu: false, menu: [] },
+			ui: {
+				title: "LibertAI swap",
+				showHamburgerMenu: false,
+				menu: [],
+				defaultInputs: { fromChain: "Base", toChain: "Solana" },
+			},
 		}}
+		theme={dark}
 	/>
 );
