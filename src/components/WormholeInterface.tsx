@@ -1,4 +1,4 @@
-import WormholeConnect, { dark, nttRoutes } from "@wormhole-foundation/wormhole-connect";
+import WormholeConnect, { nttRoutes } from "@wormhole-foundation/wormhole-connect";
 
 export const WormholeInterface = () => (
 	<WormholeConnect
@@ -28,7 +28,7 @@ export const WormholeInterface = () => (
 			chains: ["Base", "Solana"],
 			rpcs: {
 				BaseSepolia: "https://mainnet.base.org",
-				Solana: "https://rpc.ankr.com/solana",
+				Solana: "https://mainnet.helius-rpc.com/?api-key=7e09ffde-0646-4511-a5d5-44bf3102822b",
 			},
 			tokensConfig: {
 				LTAIbase: {
@@ -63,6 +63,5 @@ export const WormholeInterface = () => (
 				defaultInputs: { fromChain: "Base", toChain: "Solana" },
 			},
 		}}
-		theme={dark}
 	/>
 );
