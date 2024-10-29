@@ -27,7 +27,7 @@ export const WormholeInterface = () => (
 
 			chains: ["Base", "Solana"],
 			rpcs: {
-				BaseSepolia: "https://mainnet.base.org",
+				Base: "https://mainnet.base.org",
 				Solana: "https://mainnet.helius-rpc.com/?api-key=7e09ffde-0646-4511-a5d5-44bf3102822b",
 			},
 			tokensConfig: {
@@ -37,7 +37,7 @@ export const WormholeInterface = () => (
 					nativeChain: "Base",
 					icon: "https://libertai.io/favicon.svg",
 					tokenId: {
-						chain: "BaseSepolia",
+						chain: "Base",
 						address: "0xF8B1b47AA748F5C7b5D0e80C726a843913EB573a",
 					},
 					coinGeckoId: "libertai",
