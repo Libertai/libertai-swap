@@ -18,6 +18,7 @@ export const WormholeInterface = () => (
 								chain: "Solana",
 								token: "mntpN8z1d29f3MWhMD7VqZFpeYmbD88MgwS3Bkz8y7u",
 								manager: "ntTziNUdVjNJKZXCFbSZxfmjigyBouS8YLtAp8R2Fwa",
+								quoter: "Nqd6XqA8LbsCuG8MLWWuP865NV6jR1MbXeKxD4HLKDJ",
 								transceiver: [{ address: "HNzgsJRCAcnnQXeFteFd44zgKJX9Wz9o7juA1qKZaZYB", type: "wormhole" }],
 							},
 						],
