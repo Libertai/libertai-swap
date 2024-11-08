@@ -29,7 +29,7 @@ export const WormholeInterface = () => (
 			chains: ["Base", "Solana"],
 			rpcs: {
 				Base: "https://mainnet.base.org",
-				Solana: "https://mainnet.helius-rpc.com/?api-key=7e09ffde-0646-4511-a5d5-44bf3102822b",
+				Solana: "https://rpc.2n6.io/9f3a9e9e011262923045cd2bc7dbd272e8d45fc8",
 			},
 			tokensConfig: {
 				LTAIbase: {
