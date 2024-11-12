@@ -306,7 +306,7 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.18.9", "@babel/runtime@^7.19.0", "@babel/runtime@^7.20.6", "@babel/runtime@^7.21.0", "@babel/runtime@^7.23.9", "@babel/runtime@^7.25.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.6", "@babel/runtime@^7.21.0", "@babel/runtime@^7.23.9", "@babel/runtime@^7.25.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.26.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.26.0.tgz#8600c2f595f277c60815256418b85356a65173c1"
   integrity sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==
@@ -513,26 +513,6 @@
     bn.js "^5.1.2"
     buffer-layout "^1.2.0"
 
-"@cosmjs/amino@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/amino/-/amino-0.28.13.tgz#b51417a23c1ff8ef8b85a6862eba8492c6c44f38"
-  integrity sha512-IHnH2zGwaY69qT4mVAavr/pfzx6YE+ud1NHJbvVePlbGiz68CXTi5LHR+K0lrKB5mQ7E+ZErWz2mw5U/x+V1wQ==
-  dependencies:
-    "@cosmjs/crypto" "0.28.13"
-    "@cosmjs/encoding" "0.28.13"
-    "@cosmjs/math" "0.28.13"
-    "@cosmjs/utils" "0.28.13"
-
-"@cosmjs/amino@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/amino/-/amino-0.29.5.tgz#053b4739a90b15b9e2b781ccd484faf64bd49aec"
-  integrity sha512-Qo8jpC0BiziTSUqpkNatBcwtKNhCovUnFul9SlT/74JUCdLYaeG5hxr3q1cssQt++l4LvlcpF+OUXL48XjNjLw==
-  dependencies:
-    "@cosmjs/crypto" "^0.29.5"
-    "@cosmjs/encoding" "^0.29.5"
-    "@cosmjs/math" "^0.29.5"
-    "@cosmjs/utils" "^0.29.5"
-
 "@cosmjs/amino@^0.30.1":
   version "0.30.1"
   resolved "https://registry.yarnpkg.com/@cosmjs/amino/-/amino-0.30.1.tgz#7c18c14627361ba6c88e3495700ceea1f76baace"
@@ -562,23 +542,6 @@
     "@cosmjs/encoding" "^0.32.4"
     "@cosmjs/math" "^0.32.4"
     "@cosmjs/utils" "^0.32.4"
-
-"@cosmjs/cosmwasm-stargate@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/cosmwasm-stargate/-/cosmwasm-stargate-0.29.5.tgz#3f257da682658833e0f4eb9e8ff758e4d927663a"
-  integrity sha512-TNdSvm2tEE3XMCuxHxquzls56t40hC8qnLeYJWHsY2ECZmRK3KrnpRReEr7N7bLtODToK7X/riYrV0JaYxjrYA==
-  dependencies:
-    "@cosmjs/amino" "^0.29.5"
-    "@cosmjs/crypto" "^0.29.5"
-    "@cosmjs/encoding" "^0.29.5"
-    "@cosmjs/math" "^0.29.5"
-    "@cosmjs/proto-signing" "^0.29.5"
-    "@cosmjs/stargate" "^0.29.5"
-    "@cosmjs/tendermint-rpc" "^0.29.5"
-    "@cosmjs/utils" "^0.29.5"
-    cosmjs-types "^0.5.2"
-    long "^4.0.0"
-    pako "^2.0.2"
 
 "@cosmjs/cosmwasm-stargate@^0.31.3":
   version "0.31.3"
@@ -612,32 +575,6 @@
     "@cosmjs/utils" "^0.32.4"
     cosmjs-types "^0.9.0"
     pako "^2.0.2"
-
-"@cosmjs/crypto@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/crypto/-/crypto-0.28.13.tgz#541b6a36f616b2da5a568ead46d4e83841ceb412"
-  integrity sha512-ynKfM0q/tMBQMHJby6ad8lR3gkgBKaelQhIsCZTjClsnuC7oYT9y3ThSZCUWr7Pa9h0J8ahU2YV2oFWFVWJQzQ==
-  dependencies:
-    "@cosmjs/encoding" "0.28.13"
-    "@cosmjs/math" "0.28.13"
-    "@cosmjs/utils" "0.28.13"
-    "@noble/hashes" "^1"
-    bn.js "^5.2.0"
-    elliptic "^6.5.3"
-    libsodium-wrappers "^0.7.6"
-
-"@cosmjs/crypto@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/crypto/-/crypto-0.29.5.tgz#ab99fc382b93d8a8db075780cf07487a0f9519fd"
-  integrity sha512-2bKkaLGictaNL0UipQCL6C1afaisv6k8Wr/GCLx9FqiyFkh9ZgRHDyetD64ZsjnWV/N/D44s/esI+k6oPREaiQ==
-  dependencies:
-    "@cosmjs/encoding" "^0.29.5"
-    "@cosmjs/math" "^0.29.5"
-    "@cosmjs/utils" "^0.29.5"
-    "@noble/hashes" "^1"
-    bn.js "^5.2.0"
-    elliptic "^6.5.4"
-    libsodium-wrappers "^0.7.6"
 
 "@cosmjs/crypto@^0.30.1":
   version "0.30.1"
@@ -678,24 +615,6 @@
     elliptic "^6.5.4"
     libsodium-wrappers-sumo "^0.7.11"
 
-"@cosmjs/encoding@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/encoding/-/encoding-0.28.13.tgz#7994e8e2c435beaf0690296ffb0f7f3eaec8150b"
-  integrity sha512-jtXbAYtV77rLHxoIrjGFsvgGjeTKttuHRv6cvuy3toCZzY7JzTclKH5O2g36IIE4lXwD9xwuhGJ2aa6A3dhNkA==
-  dependencies:
-    base64-js "^1.3.0"
-    bech32 "^1.1.4"
-    readonly-date "^1.0.0"
-
-"@cosmjs/encoding@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/encoding/-/encoding-0.29.5.tgz#009a4b1c596cdfd326f30ccfa79f5e56daa264f2"
-  integrity sha512-G4rGl/Jg4dMCw5u6PEZHZcoHnUBlukZODHbm/wcL4Uu91fkn5jVo5cXXZcvs4VCkArVGrEj/52eUgTZCmOBGWQ==
-  dependencies:
-    base64-js "^1.3.0"
-    bech32 "^1.1.4"
-    readonly-date "^1.0.0"
-
 "@cosmjs/encoding@^0.30.1":
   version "0.30.1"
   resolved "https://registry.yarnpkg.com/@cosmjs/encoding/-/encoding-0.30.1.tgz#b5c4e0ef7ceb1f2753688eb96400ed70f35c6058"
@@ -723,22 +642,6 @@
     bech32 "^1.1.4"
     readonly-date "^1.0.0"
 
-"@cosmjs/json-rpc@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/json-rpc/-/json-rpc-0.28.13.tgz#ff3f0c4a2f363b1a2c6779f8624a897e217fe297"
-  integrity sha512-fInSvg7x9P6p+GWqet+TMhrMTM3OWWdLJOGS5w2ryubMjgpR1rLiAx77MdTNkArW+/6sUwku0sN4veM4ENQu6A==
-  dependencies:
-    "@cosmjs/stream" "0.28.13"
-    xstream "^11.14.0"
-
-"@cosmjs/json-rpc@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/json-rpc/-/json-rpc-0.29.5.tgz#5e483a9bd98a6270f935adf0dfd8a1e7eb777fe4"
-  integrity sha512-C78+X06l+r9xwdM1yFWIpGl03LhB9NdM1xvZpQHwgCOl0Ir/WV8pw48y3Ez2awAoUBRfTeejPe4KvrE6NoIi/w==
-  dependencies:
-    "@cosmjs/stream" "^0.29.5"
-    xstream "^11.14.0"
-
 "@cosmjs/json-rpc@^0.30.1":
   version "0.30.1"
   resolved "https://registry.yarnpkg.com/@cosmjs/json-rpc/-/json-rpc-0.30.1.tgz#16f21305fc167598c8a23a45549b85106b2372bc"
@@ -763,20 +666,6 @@
     "@cosmjs/stream" "^0.32.4"
     xstream "^11.14.0"
 
-"@cosmjs/math@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/math/-/math-0.28.13.tgz#50c05bc67007a04216f7f5e0c93f57270f8cc077"
-  integrity sha512-PDpL8W/kbyeWi0mQ2OruyqE8ZUAdxPs1xCbDX3WXJwy2oU+X2UTbkuweJHVpS9CIqmZulBoWQAmlf6t6zr1N/g==
-  dependencies:
-    bn.js "^5.2.0"
-
-"@cosmjs/math@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/math/-/math-0.29.5.tgz#722c96e080d6c2b62215ce9f4c70da7625b241b6"
-  integrity sha512-2GjKcv+A9f86MAWYLUkjhw1/WpRl2R1BTb3m9qPG7lzMA7ioYff9jY5SPCfafKdxM4TIQGxXQlYGewQL16O68Q==
-  dependencies:
-    bn.js "^5.2.0"
-
 "@cosmjs/math@^0.30.1":
   version "0.30.1"
   resolved "https://registry.yarnpkg.com/@cosmjs/math/-/math-0.30.1.tgz#8b816ef4de5d3afa66cb9fdfb5df2357a7845b8a"
@@ -797,32 +686,6 @@
   integrity sha512-++dqq2TJkoB8zsPVYCvrt88oJWsy1vMOuSOKcdlnXuOA/ASheTJuYy4+oZlTQ3Fr8eALDLGGPhJI02W2HyAQaw==
   dependencies:
     bn.js "^5.2.0"
-
-"@cosmjs/proto-signing@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/proto-signing/-/proto-signing-0.28.13.tgz#95ac12f0da0f0814f348f5ae996c3e96d015df61"
-  integrity sha512-nSl/2ZLsUJYz3Ad0RY3ihZUgRHIow2OnYqKsESMu+3RA/jTi9bDYhiBu8mNMHI0xrEJry918B2CyI56pOUHdPQ==
-  dependencies:
-    "@cosmjs/amino" "0.28.13"
-    "@cosmjs/crypto" "0.28.13"
-    "@cosmjs/encoding" "0.28.13"
-    "@cosmjs/math" "0.28.13"
-    "@cosmjs/utils" "0.28.13"
-    cosmjs-types "^0.4.0"
-    long "^4.0.0"
-
-"@cosmjs/proto-signing@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/proto-signing/-/proto-signing-0.29.5.tgz#af3b62a46c2c2f1d2327d678b13b7262db1fe87c"
-  integrity sha512-QRrS7CiKaoETdgIqvi/7JC2qCwCR7lnWaUsTzh/XfRy3McLkEd+cXbKAW3cygykv7IN0VAEIhZd2lyIfT8KwNA==
-  dependencies:
-    "@cosmjs/amino" "^0.29.5"
-    "@cosmjs/crypto" "^0.29.5"
-    "@cosmjs/encoding" "^0.29.5"
-    "@cosmjs/math" "^0.29.5"
-    "@cosmjs/utils" "^0.29.5"
-    cosmjs-types "^0.5.2"
-    long "^4.0.0"
 
 "@cosmjs/proto-signing@^0.30.1":
   version "0.30.1"
@@ -862,26 +725,6 @@
     "@cosmjs/utils" "^0.32.4"
     cosmjs-types "^0.9.0"
 
-"@cosmjs/socket@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/socket/-/socket-0.28.13.tgz#d8443ad6e91d080fc6b80a7e9cf297a56b1f6833"
-  integrity sha512-lavwGxQ5VdeltyhpFtwCRVfxeWjH5D5mmN7jgx9nuCf3XSFbTcOYxrk2pQ4usenu1Q1KZdL4Yl5RCNrJuHD9Ug==
-  dependencies:
-    "@cosmjs/stream" "0.28.13"
-    isomorphic-ws "^4.0.1"
-    ws "^7"
-    xstream "^11.14.0"
-
-"@cosmjs/socket@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/socket/-/socket-0.29.5.tgz#a48df6b4c45dc6a6ef8e47232725dd4aa556ac2d"
-  integrity sha512-5VYDupIWbIXq3ftPV1LkS5Ya/T7Ol/AzWVhNxZ79hPe/mBfv1bGau/LqIYOm2zxGlgm9hBHOTmWGqNYDwr9LNQ==
-  dependencies:
-    "@cosmjs/stream" "^0.29.5"
-    isomorphic-ws "^4.0.1"
-    ws "^7"
-    xstream "^11.14.0"
-
 "@cosmjs/socket@^0.30.1":
   version "0.30.1"
   resolved "https://registry.yarnpkg.com/@cosmjs/socket/-/socket-0.30.1.tgz#00b22f4b5e2ab01f4d82ccdb7b2e59536bfe5ce0"
@@ -910,42 +753,6 @@
     "@cosmjs/stream" "^0.32.4"
     isomorphic-ws "^4.0.1"
     ws "^7"
-    xstream "^11.14.0"
-
-"@cosmjs/stargate@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/stargate/-/stargate-0.28.13.tgz#a73d837a46ee8944e6eafe162f2ff6943c14350e"
-  integrity sha512-dVBMazDz8/eActHsRcZjDHHptOBMqvibj5CFgEtZBp22gP6ASzoAUXTlkSVk5FBf4sfuUHoff6st134/+PGMAg==
-  dependencies:
-    "@confio/ics23" "^0.6.8"
-    "@cosmjs/amino" "0.28.13"
-    "@cosmjs/encoding" "0.28.13"
-    "@cosmjs/math" "0.28.13"
-    "@cosmjs/proto-signing" "0.28.13"
-    "@cosmjs/stream" "0.28.13"
-    "@cosmjs/tendermint-rpc" "0.28.13"
-    "@cosmjs/utils" "0.28.13"
-    cosmjs-types "^0.4.0"
-    long "^4.0.0"
-    protobufjs "~6.11.3"
-    xstream "^11.14.0"
-
-"@cosmjs/stargate@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/stargate/-/stargate-0.29.5.tgz#d597af1c85a3c2af7b5bdbec34d5d40692cc09e4"
-  integrity sha512-hjEv8UUlJruLrYGJcUZXM/CziaINOKwfVm2BoSdUnNTMxGvY/jC1ABHKeZUYt9oXHxEJ1n9+pDqzbKc8pT0nBw==
-  dependencies:
-    "@confio/ics23" "^0.6.8"
-    "@cosmjs/amino" "^0.29.5"
-    "@cosmjs/encoding" "^0.29.5"
-    "@cosmjs/math" "^0.29.5"
-    "@cosmjs/proto-signing" "^0.29.5"
-    "@cosmjs/stream" "^0.29.5"
-    "@cosmjs/tendermint-rpc" "^0.29.5"
-    "@cosmjs/utils" "^0.29.5"
-    cosmjs-types "^0.5.2"
-    long "^4.0.0"
-    protobufjs "~6.11.3"
     xstream "^11.14.0"
 
 "@cosmjs/stargate@^0.30.1":
@@ -1000,20 +807,6 @@
     cosmjs-types "^0.9.0"
     xstream "^11.14.0"
 
-"@cosmjs/stream@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/stream/-/stream-0.28.13.tgz#1e79d1116fda1e63e5ecddbd9d803d403942b1fa"
-  integrity sha512-AnjtfwT8NwPPkd3lhZhjOlOzT0Kn9bgEu2IPOZjQ1nmG2bplsr6TJmnwn0dJxHT7UGtex17h6whKB5N4wU37Wg==
-  dependencies:
-    xstream "^11.14.0"
-
-"@cosmjs/stream@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/stream/-/stream-0.29.5.tgz#350981cac496d04939b92ee793b9b19f44bc1d4e"
-  integrity sha512-TToTDWyH1p05GBtF0Y8jFw2C+4783ueDCmDyxOMM6EU82IqpmIbfwcdMOCAm0JhnyMh+ocdebbFvnX/sGKzRAA==
-  dependencies:
-    xstream "^11.14.0"
-
 "@cosmjs/stream@^0.30.1":
   version "0.30.1"
   resolved "https://registry.yarnpkg.com/@cosmjs/stream/-/stream-0.30.1.tgz#ba038a2aaf41343696b1e6e759d8e03a9516ec1a"
@@ -1033,38 +826,6 @@
   resolved "https://registry.yarnpkg.com/@cosmjs/stream/-/stream-0.32.4.tgz#83e1f2285807467c56d9ea0e1113f79d9fa63802"
   integrity sha512-Gih++NYHEiP+oyD4jNEUxU9antoC0pFSg+33Hpp0JlHwH0wXhtD3OOKnzSfDB7OIoEbrzLJUpEjOgpCp5Z+W3A==
   dependencies:
-    xstream "^11.14.0"
-
-"@cosmjs/tendermint-rpc@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/tendermint-rpc/-/tendermint-rpc-0.28.13.tgz#0bf587ae66fa3f88319edbd258492d28e73f9f29"
-  integrity sha512-GB+ZmfuJIGQm0hsRtLYjeR3lOxF7Z6XyCBR0cX5AAYOZzSEBJjevPgUHD6tLn8zIhvzxaW3/VKnMB+WmlxdH4w==
-  dependencies:
-    "@cosmjs/crypto" "0.28.13"
-    "@cosmjs/encoding" "0.28.13"
-    "@cosmjs/json-rpc" "0.28.13"
-    "@cosmjs/math" "0.28.13"
-    "@cosmjs/socket" "0.28.13"
-    "@cosmjs/stream" "0.28.13"
-    "@cosmjs/utils" "0.28.13"
-    axios "^0.21.2"
-    readonly-date "^1.0.0"
-    xstream "^11.14.0"
-
-"@cosmjs/tendermint-rpc@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/tendermint-rpc/-/tendermint-rpc-0.29.5.tgz#f205c10464212bdf843f91bb2e4a093b618cb5c2"
-  integrity sha512-ar80twieuAxsy0x2za/aO3kBr2DFPAXDmk2ikDbmkda+qqfXgl35l9CVAAjKRqd9d+cRvbQyb5M4wy6XQpEV6w==
-  dependencies:
-    "@cosmjs/crypto" "^0.29.5"
-    "@cosmjs/encoding" "^0.29.5"
-    "@cosmjs/json-rpc" "^0.29.5"
-    "@cosmjs/math" "^0.29.5"
-    "@cosmjs/socket" "^0.29.5"
-    "@cosmjs/stream" "^0.29.5"
-    "@cosmjs/utils" "^0.29.5"
-    axios "^0.21.2"
-    readonly-date "^1.0.0"
     xstream "^11.14.0"
 
 "@cosmjs/tendermint-rpc@^0.30.1":
@@ -1114,16 +875,6 @@
     axios "^1.6.0"
     readonly-date "^1.0.0"
     xstream "^11.14.0"
-
-"@cosmjs/utils@0.28.13":
-  version "0.28.13"
-  resolved "https://registry.yarnpkg.com/@cosmjs/utils/-/utils-0.28.13.tgz#2fd2844ec832d7833811e2ae1691305d09791a08"
-  integrity sha512-dVeMBiyg+46x7XBZEfJK8yTihphbCFpjVYmLJVqmTsHfJwymQ65cpyW/C+V/LgWARGK8hWQ/aX9HM5Ao8QmMSg==
-
-"@cosmjs/utils@^0.29.5":
-  version "0.29.5"
-  resolved "https://registry.yarnpkg.com/@cosmjs/utils/-/utils-0.29.5.tgz#3fed1b3528ae8c5f1eb5d29b68755bebfd3294ee"
-  integrity sha512-m7h+RXDUxOzEOGt4P+3OVPX7PuakZT3GBmaM/Y2u+abN3xZkziykD/NvedYFvvCCdQo714XcGl33bwifS9FZPQ==
 
 "@cosmjs/utils@^0.30.1":
   version "0.30.1"
@@ -1256,16 +1007,6 @@
   version "11.5.0"
   resolved "https://registry.yarnpkg.com/@emurgo/cardano-serialization-lib-nodejs/-/cardano-serialization-lib-nodejs-11.5.0.tgz#0662e2a17d7d1e944f8cdb86396133c8edaec059"
   integrity sha512-IlVABlRgo9XaTR1NunwZpWcxnfEv04ba2l1vkUz4S1W7Jt36F4CtffP+jPeqBZGnAe+fnUwo0XjIJC3ZTNToNQ==
-
-"@ensdomains/ens-validation@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@ensdomains/ens-validation/-/ens-validation-0.1.0.tgz#9ebfe66016fbf069a6ebca70c043714f6f02fbe6"
-  integrity sha512-rbDh2K6GfqXvBcJUISaTTYEt3f079WA4ohTE5Lh4/8EaaPAk/9vk3EisMUQV2UVxeFIZQEEyRCIOmRTpqN0W7A==
-
-"@ensdomains/eth-ens-namehash@^2.0.15":
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/@ensdomains/eth-ens-namehash/-/eth-ens-namehash-2.0.15.tgz#5e5f2f24ba802aff8bc19edd822c9a11200cdf4a"
-  integrity sha512-JRDFP6+Hczb1E0/HhIg0PONgBYasfGfDheujmfxaZaAv/NAH4jE6Kf48WbqfRZdxt4IZI3jl3Ri7sZ1nP09lgw==
 
 "@esbuild/aix-ppc64@0.21.5":
   version "0.21.5"
@@ -1954,26 +1695,6 @@
     protobufjs "^7.0.0"
     rxjs "^7.4.0"
 
-"@injectivelabs/core-proto-ts@^0.0.18":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@injectivelabs/core-proto-ts/-/core-proto-ts-0.0.18.tgz#aa60ffde2b52cbbf80a18ba77833ecad605d8fd6"
-  integrity sha512-WSZS7SQ+I/m8jdc7fhzkMTUhA7i5nVTeKbN6QGqKmOwQ/F+PqM75vDHD9Y9NbLPx9P+m7hyUzSHz4zmajth5jw==
-  dependencies:
-    "@injectivelabs/grpc-web" "^0.0.1"
-    google-protobuf "^3.14.0"
-    protobufjs "^7.0.0"
-    rxjs "^7.4.0"
-
-"@injectivelabs/dmm-proto-ts@1.0.16":
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/@injectivelabs/dmm-proto-ts/-/dmm-proto-ts-1.0.16.tgz#7e2d6652cf31700524c1933d40ffa54c213302c5"
-  integrity sha512-2D1gDJ0eMveTuLjOH+dDvDSjoIbCbaQxnRmVCg3an0kPRot54tNTdx1DC3LyBQEOJ7VeVJFbhDjoAmgpNPBY8A==
-  dependencies:
-    "@injectivelabs/grpc-web" "^0.0.1"
-    google-protobuf "^3.14.0"
-    protobufjs "^7.0.0"
-    rxjs "^7.4.0"
-
 "@injectivelabs/dmm-proto-ts@1.0.20":
   version "1.0.20"
   resolved "https://registry.yarnpkg.com/@injectivelabs/dmm-proto-ts/-/dmm-proto-ts-1.0.20.tgz#0b240b16ac0b54745dc831b373c455c6d19d8241"
@@ -1984,7 +1705,7 @@
     protobufjs "^7.0.0"
     rxjs "^7.4.0"
 
-"@injectivelabs/exceptions@^1.10.12", "@injectivelabs/exceptions@^1.14.0-beta.1", "@injectivelabs/exceptions@^1.14.11", "@injectivelabs/exceptions@^1.14.16":
+"@injectivelabs/exceptions@^1.10.12", "@injectivelabs/exceptions@^1.14.11", "@injectivelabs/exceptions@^1.14.16":
   version "1.14.16"
   resolved "https://registry.yarnpkg.com/@injectivelabs/exceptions/-/exceptions-1.14.16.tgz#5e8790bceab8c95dc6265db32c58ee268bd11b7b"
   integrity sha512-6kDldpoLjc69kH2i0RMCYTE/KQ2xnpd37A9et2K6IlhIZTVmAy3t5mBSj956Gzsg/82Q7K9fX8UNoG0iGQiOTw==
@@ -2031,26 +1752,6 @@
     protobufjs "^7.0.0"
     rxjs "^7.4.0"
 
-"@injectivelabs/indexer-proto-ts@1.11.9":
-  version "1.11.9"
-  resolved "https://registry.yarnpkg.com/@injectivelabs/indexer-proto-ts/-/indexer-proto-ts-1.11.9.tgz#19910f44382da50d16c0e7a58114c06b5b66214d"
-  integrity sha512-hUlZbSpii+amvqqefH/oV16igRJSx4mCM/Zi0xMZLHyqGkaX7PHVvjQcfX04hwx2MdSsAoDghJXuUrAJ7q9I2A==
-  dependencies:
-    "@injectivelabs/grpc-web" "^0.0.1"
-    google-protobuf "^3.14.0"
-    protobufjs "^7.0.0"
-    rxjs "^7.4.0"
-
-"@injectivelabs/mito-proto-ts@1.0.46":
-  version "1.0.46"
-  resolved "https://registry.yarnpkg.com/@injectivelabs/mito-proto-ts/-/mito-proto-ts-1.0.46.tgz#d0e31c4ca2f76940771621b2fe88f9bc40c7a891"
-  integrity sha512-K1g5udssQd4pDNzMteUQiI3PLHsuBhCKT6wli2h05ImB0NFQcGbLQlk3lpzsdfE9Usx2hCmZiQNUfUouRrTBpQ==
-  dependencies:
-    "@injectivelabs/grpc-web" "^0.0.1"
-    google-protobuf "^3.14.0"
-    protobufjs "^7.0.0"
-    rxjs "^7.4.0"
-
 "@injectivelabs/mito-proto-ts@1.0.65":
   version "1.0.65"
   resolved "https://registry.yarnpkg.com/@injectivelabs/mito-proto-ts/-/mito-proto-ts-1.0.65.tgz#87aadbc440cc22e0fb17a74ce7a4b280b12b355c"
@@ -2071,7 +1772,7 @@
     protobufjs "^7.0.0"
     rxjs "^7.4.0"
 
-"@injectivelabs/networks@^1.10.12", "@injectivelabs/networks@^1.14.0-beta.1", "@injectivelabs/networks@^1.14.11", "@injectivelabs/networks@^1.14.16":
+"@injectivelabs/networks@^1.10.12", "@injectivelabs/networks@^1.14.11", "@injectivelabs/networks@^1.14.16":
   version "1.14.16"
   resolved "https://registry.yarnpkg.com/@injectivelabs/networks/-/networks-1.14.16.tgz#05fe7b1225aae7dbad844b4e6a43ca0ba1aa303a"
   integrity sha512-t0gF4uxv/39oAOHsnelX9QUfirxvNKgQYZwNpHvhE6JnEYjRYmaEifqB/LZBZ06Xj+SS/f2DZ7DwNdVTYuvaAw==
@@ -2103,51 +1804,6 @@
     "@injectivelabs/token-metadata" "^1.10.42"
     "@injectivelabs/ts-types" "^1.10.12"
     "@injectivelabs/utils" "^1.10.12"
-    "@metamask/eth-sig-util" "^4.0.0"
-    axios "^0.27.2"
-    bech32 "^2.0.0"
-    bip39 "^3.0.4"
-    cosmjs-types "^0.7.1"
-    eth-crypto "^2.6.0"
-    ethereumjs-util "^7.1.4"
-    ethers "^5.7.2"
-    google-protobuf "^3.21.0"
-    graphql "^16.3.0"
-    http-status-codes "^2.2.0"
-    js-sha3 "^0.8.0"
-    jscrypto "^1.0.3"
-    keccak256 "^1.0.6"
-    link-module-alias "^1.2.0"
-    rxjs "^7.8.0"
-    secp256k1 "^4.0.3"
-    shx "^0.3.2"
-    snakecase-keys "^5.4.1"
-
-"@injectivelabs/sdk-ts@1.14.0-beta.1":
-  version "1.14.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@injectivelabs/sdk-ts/-/sdk-ts-1.14.0-beta.1.tgz#4ddf22ef65a924d9e7cb3bdd27279e00081e9886"
-  integrity sha512-pyb0fWhlzOjFLkRr7twuSzXfBmoC6RJfyWXPjnUu2n13CIo2oRIJQv/vBAeqiSAZRTbJBCNwy4tSTQyPcGEeAQ==
-  dependencies:
-    "@apollo/client" "^3.5.8"
-    "@cosmjs/amino" "^0.30.1"
-    "@cosmjs/proto-signing" "^0.30.1"
-    "@cosmjs/stargate" "^0.30.1"
-    "@ensdomains/ens-validation" "^0.1.0"
-    "@ensdomains/eth-ens-namehash" "^2.0.15"
-    "@ethersproject/bytes" "^5.7.0"
-    "@injectivelabs/core-proto-ts" "^0.0.18"
-    "@injectivelabs/dmm-proto-ts" "1.0.16"
-    "@injectivelabs/exceptions" "^1.14.0-beta.1"
-    "@injectivelabs/grpc-web" "^0.0.1"
-    "@injectivelabs/grpc-web-node-http-transport" "^0.0.2"
-    "@injectivelabs/grpc-web-react-native-transport" "^0.0.2"
-    "@injectivelabs/indexer-proto-ts" "1.11.9"
-    "@injectivelabs/mito-proto-ts" "1.0.46"
-    "@injectivelabs/networks" "^1.14.0-beta.1"
-    "@injectivelabs/test-utils" "^1.14.0-beta.1"
-    "@injectivelabs/token-metadata" "^1.14.0-beta.1"
-    "@injectivelabs/ts-types" "^1.14.0-beta.1"
-    "@injectivelabs/utils" "^1.14.0-beta.1"
     "@metamask/eth-sig-util" "^4.0.0"
     axios "^0.27.2"
     bech32 "^2.0.0"
@@ -2208,7 +1864,7 @@
     shx "^0.3.2"
     snakecase-keys "^5.4.1"
 
-"@injectivelabs/test-utils@^1.10.12", "@injectivelabs/test-utils@^1.14.0-beta.1", "@injectivelabs/test-utils@^1.14.16":
+"@injectivelabs/test-utils@^1.10.12", "@injectivelabs/test-utils@^1.14.16":
   version "1.14.16"
   resolved "https://registry.yarnpkg.com/@injectivelabs/test-utils/-/test-utils-1.14.16.tgz#8c6dd8a869bc92310a7698eea78099a81add8f77"
   integrity sha512-GCIEctKhQIxka7OexiG/3kUvua4XDA54oH5ltimFncLKKSWH1EQ8xk5euonW0q+3G3VV/YKScxmZ4LcKXtEf4Q==
@@ -2240,7 +1896,7 @@
     lodash.values "^4.3.0"
     shx "^0.3.2"
 
-"@injectivelabs/token-metadata@^1.10.42", "@injectivelabs/token-metadata@^1.14.0-beta.1":
+"@injectivelabs/token-metadata@^1.10.42":
   version "1.14.11"
   resolved "https://registry.yarnpkg.com/@injectivelabs/token-metadata/-/token-metadata-1.14.11.tgz#296b6db3c9c9f6147273252cf41b803902c35414"
   integrity sha512-WKJlvjKiTRHxpOeez4kYrzIwgWmpspD1IMxWclkTysAcwGltUfUsvUhu1cKuACleIjFFWmiZv/HoGRFdvEAZ8w==
@@ -2257,14 +1913,14 @@
     lodash.values "^4.3.0"
     shx "^0.3.2"
 
-"@injectivelabs/ts-types@^1.10.12", "@injectivelabs/ts-types@^1.14.0-beta.1", "@injectivelabs/ts-types@^1.14.11", "@injectivelabs/ts-types@^1.14.16":
+"@injectivelabs/ts-types@^1.10.12", "@injectivelabs/ts-types@^1.14.11", "@injectivelabs/ts-types@^1.14.16":
   version "1.14.16"
   resolved "https://registry.yarnpkg.com/@injectivelabs/ts-types/-/ts-types-1.14.16.tgz#c54527e8c8e3bc0a1446445c66fb0b7a700d7a94"
   integrity sha512-JzAwMQ0jneOCKQZWCHQD400HU5DFUnwD0DYxXCpcHE149BSorova3d+5oTL+HxibOzhr25j9zrCQVVsTC/+MmA==
   dependencies:
     shx "^0.3.2"
 
-"@injectivelabs/utils@^1.10.12", "@injectivelabs/utils@^1.14.0-beta.1", "@injectivelabs/utils@^1.14.11", "@injectivelabs/utils@^1.14.16":
+"@injectivelabs/utils@^1.10.12", "@injectivelabs/utils@^1.14.11", "@injectivelabs/utils@^1.14.16":
   version "1.14.16"
   resolved "https://registry.yarnpkg.com/@injectivelabs/utils/-/utils-1.14.16.tgz#dfbec7a909435d97c5891ea4b2aa59b39a25418e"
   integrity sha512-eS4SED2VqDD1m20drau8LrGjxmg8W+2CZj1hNXRB1bDk5+dAk92bw1/0LwiwzPsRX1bHV45w9sL0pk0VSZvV6w==
@@ -2356,14 +2012,6 @@
   dependencies:
     "@json-rpc-tools/types" "^1.7.6"
     "@pedrouid/environment" "^1.0.1"
-
-"@keplr-wallet/types@^0.11.41":
-  version "0.11.64"
-  resolved "https://registry.yarnpkg.com/@keplr-wallet/types/-/types-0.11.64.tgz#5a308c8c019b4e18f894e0f35f0904b60134d605"
-  integrity sha512-GgzeLDHHfZFyne3O7UIfFHj/uYqVbxAZI31RbBwt460OBbvwQzjrlZwvJW3vieWRAgxKSITjzEDBl2WneFTQdQ==
-  dependencies:
-    axios "^0.27.2"
-    long "^4.0.0"
 
 "@keystonehq/alias-sampling@^0.1.1":
   version "0.1.2"
@@ -3021,11 +2669,6 @@
   resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.1.5.tgz#1a0377f3b9020efe2fae03290bd2a12140c95c11"
   integrity sha512-LTMZiiLc+V4v1Yi16TD6aX2gmtKszNye0pQgbaLqkvhIqP7nVsSaJsWloGQjJfJ8offaoP5GtX3yY5swbcJxxQ==
 
-"@noble/secp256k1@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@noble/secp256k1/-/secp256k1-1.7.1.tgz#b251c70f824ce3ca7f8dc3df08d58f005cc0507c"
-  integrity sha512-hOUk6AyBFmqVrv7k5WAw/LpszxVbj9gGN4JRkIX52fdFAj1UA61KXmZDvqVEm+pOyec3+fIeZB02LYa/pWOArw==
-
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -3071,28 +2714,6 @@
     buffer "^6.0.3"
     mitt "^3.0.0"
     tronweb "^5.1.0"
-
-"@osmonauts/helpers@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@osmonauts/helpers/-/helpers-0.6.0.tgz#86324110ba1ec76637836ef6ec12ce263e1a7a97"
-  integrity sha512-l62tWR/0W4R+5wRvMeRK0zlaJ8WZhULKsQAZ7kNzggL0pbndIAV+0BJ/jEBbNletoeGtuV8rpi6Wo+w+RmtZGw==
-  dependencies:
-    "@babel/runtime" "^7.18.9"
-    "@cosmjs/amino" "0.28.13"
-    "@cosmjs/crypto" "0.28.13"
-    "@cosmjs/proto-signing" "0.28.13"
-    "@cosmjs/stargate" "0.28.13"
-    cosmjs-types "0.5.1"
-    long "^5.2.0"
-    protobufjs "^6.11.3"
-
-"@osmonauts/lcd@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@osmonauts/lcd/-/lcd-0.8.0.tgz#fcabba93edadd23f73b2046a5cad897b420a9c84"
-  integrity sha512-k7m2gAVnXc0H4m/eTq4z/8A6hFrr3MPS9wnLV4Xu9/K/WYltCnp2PpiObZm+feZUPK/svES6hxIQeO1bODLx8g==
-  dependencies:
-    "@babel/runtime" "^7.19.0"
-    axios "0.27.2"
 
 "@parcel/watcher-android-arm64@2.4.1":
   version "2.4.1"
@@ -3514,49 +3135,6 @@
   dependencies:
     "@noble/hashes" "~1.5.0"
     "@scure/base" "~1.1.8"
-
-"@sei-js/core@^3.1.0":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@sei-js/core/-/core-3.2.1.tgz#7b84e5f253f5199af757c42ad36f744b200e7b12"
-  integrity sha512-8pZBYvFhpeUNDH/4WonJNV4yADW7Bqq4RySw8JIsVBC3IBkW53ysKpqf6O0TKOswW6T8E3p39txtajViHYMixw==
-  dependencies:
-    "@cosmjs/amino" "^0.29.5"
-    "@cosmjs/cosmwasm-stargate" "^0.29.5"
-    "@cosmjs/crypto" "^0.29.5"
-    "@cosmjs/encoding" "^0.29.5"
-    "@cosmjs/json-rpc" "^0.29.5"
-    "@cosmjs/math" "^0.29.5"
-    "@cosmjs/proto-signing" "^0.29.5"
-    "@cosmjs/stargate" "^0.29.5"
-    "@cosmjs/tendermint-rpc" "^0.29.5"
-    "@cosmjs/utils" "^0.29.5"
-    "@ethersproject/keccak256" "^5.7.0"
-    "@keplr-wallet/types" "^0.11.41"
-    "@noble/secp256k1" "1.7.1"
-    "@sei-js/proto" "^3.1.0"
-    bech32 "^2.0.0"
-    buffer "^6.0.3"
-    elliptic "^6.5.4"
-    moment "^2.30.1"
-    process "^0.11.10"
-    readonly-date "^1.0.0"
-    sha.js "^2.4.11"
-    xstream "^11.14.0"
-
-"@sei-js/proto@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@sei-js/proto/-/proto-3.1.0.tgz#a0d073fb0b13811e919f2203655fefcf797762ed"
-  integrity sha512-TollbfB77pIppO9JOjja/Oo0+n4yOXa0H9yD5SwPPFIrx7Xp5YYrvpVYmZYwf5i0t/ulY8wxbqKfw0sl0geSPw==
-  dependencies:
-    "@babel/runtime" "^7.18.9"
-    "@cosmjs/amino" "^0.29.5"
-    "@cosmjs/encoding" "^0.29.5"
-    "@cosmjs/proto-signing" "^0.29.5"
-    "@cosmjs/stargate" "^0.29.5"
-    "@cosmjs/tendermint-rpc" "^0.29.5"
-    "@osmonauts/helpers" "^0.6.0"
-    "@osmonauts/lcd" "^0.8.0"
-    protobufjs "^6.11.2"
 
 "@sinclair/typebox@^0.33.7":
   version "0.33.17"
@@ -5489,53 +5067,53 @@
     motion "10.16.2"
     qrcode "1.5.3"
 
-"@wormhole-foundation/sdk-algorand-core@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand-core/-/sdk-algorand-core-1.0.2.tgz#8b7ff8548f84070fe90c5f93f154045c86a73187"
-  integrity sha512-UcpIP3L8pB2USJG6DGmzwwDVlNaRL7FmMVHXU3qr0LXOOwK6uoioFo6rcY8a+BeDHA56l0niQbEJOtYjvqbAEw==
+"@wormhole-foundation/sdk-algorand-core@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand-core/-/sdk-algorand-core-1.0.3.tgz#35329d4fa62123304aa79b6301bdc1939138c7d1"
+  integrity sha512-ZuoQdSqq8ScsfxKAIK0r0zIrhfVF3rHcRgTwLgYc1/sH9/FoJG/DH9SxebXIiC8yBGMRfhKEhncNS8oZd6/4CQ==
   dependencies:
-    "@wormhole-foundation/sdk-algorand" "1.0.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-algorand" "1.0.3"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
 
-"@wormhole-foundation/sdk-algorand-tokenbridge@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand-tokenbridge/-/sdk-algorand-tokenbridge-1.0.2.tgz#6d03a37afcf962f75bb9a4498a73c126e925d3de"
-  integrity sha512-XEkwsFAvgcVAAx4lOnlIy4K5lIJCHui+FA3o1wK2Vox0SUn/nMNF7WgU66RKXtht8lN8sACOb1WDp4HqzVbVQA==
+"@wormhole-foundation/sdk-algorand-tokenbridge@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand-tokenbridge/-/sdk-algorand-tokenbridge-1.0.3.tgz#0b9580133aa22f1ae2950f1c17ec731b5f16d031"
+  integrity sha512-DqfD+x7bPDViWq5EcKIX2NIQUYtMC+Lrewe/jmldmTwxrZLQzwMi7F+UnqyUacmVhRQ45MsTBoZ0ec6/XUgWvw==
   dependencies:
-    "@wormhole-foundation/sdk-algorand" "1.0.2"
-    "@wormhole-foundation/sdk-algorand-core" "1.0.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-algorand" "1.0.3"
+    "@wormhole-foundation/sdk-algorand-core" "1.0.3"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
 
-"@wormhole-foundation/sdk-algorand@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand/-/sdk-algorand-1.0.2.tgz#5aa48a55fd99f9a149a352cd6ee860d4954c412c"
-  integrity sha512-/pZAaLrZy+cs6NIO1bLThlIRDVdnU+yWZBpOgTgbcHhpRkeUKfUdOtqMMt8pl65aq7sM7ZJq91vgrAgmD0Fk2g==
+"@wormhole-foundation/sdk-algorand@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand/-/sdk-algorand-1.0.3.tgz#f647380c1c8e91e98ba20d9c540bdc9b3cb7d4ef"
+  integrity sha512-DWq1Nbi8hUtiPabpm1NZQ5OJwokWTH4Qp2xwbKtIT1zJvvi6VFVyXwzygh5VrFkxDpmYqsz7pQB8Iqa5pJXL1w==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
     algosdk "2.7.0"
 
-"@wormhole-foundation/sdk-aptos-core@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-core/-/sdk-aptos-core-1.0.2.tgz#503bce759f79a931ef5fd3daa65f6e774c5388cf"
-  integrity sha512-rHQfDFuA3euXCj5FwkO4TNT+4CdQGJAykRNWyHTdlfNTAIMHNmebIvZ0E6nE0RJFYzvjuGw6NFxqDU3SE/a9YA==
+"@wormhole-foundation/sdk-aptos-core@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-core/-/sdk-aptos-core-1.0.3.tgz#45aa5a80c35a724211c421d9d2d9dfd4962bb20c"
+  integrity sha512-IMFqPmENwqwTFIKpCDeVbaTzc8RuUWEZmvi40yhF0fu4SWahSBoh/G0q0iwf/yUpDRyEO8ynrcUOU+AoQta4Qw==
   dependencies:
-    "@wormhole-foundation/sdk-aptos" "1.0.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-aptos" "1.0.3"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
 
-"@wormhole-foundation/sdk-aptos-tokenbridge@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-tokenbridge/-/sdk-aptos-tokenbridge-1.0.2.tgz#1abb4d10ea600733e3d5dc00ae622aab5357d466"
-  integrity sha512-RY7lzKmg/nkfkV/aorWv8juHGg2UtjxljUSkJ3IJeQzvHnE0a11DDbGBKtuNLC0/H4lwINGl3UsPSQsbcYrO2A==
+"@wormhole-foundation/sdk-aptos-tokenbridge@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-tokenbridge/-/sdk-aptos-tokenbridge-1.0.3.tgz#4cbe1f3cd840d0bafd09b0ad7469d01753ff0c45"
+  integrity sha512-KlEqzHg9SkSaNgRpIEcjXOYVt7/ra/kJtYG0F/6wt3YwjsM3mTANTSGUqoF1z9VsViPdffcCwfxKt2U92dZqJA==
   dependencies:
-    "@wormhole-foundation/sdk-aptos" "1.0.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-aptos" "1.0.3"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
 
-"@wormhole-foundation/sdk-aptos@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos/-/sdk-aptos-1.0.2.tgz#75f613197c927f7f419eddec8dcfd0fbba83ff31"
-  integrity sha512-p1q3JbZ2uC/t2ZxWsN+vqqVaPrtZZmzwqlEkeZp2kEFlg7LzB0OQbFVXpisHK3zua67+gP3eEaCW/1XUI5GkLg==
+"@wormhole-foundation/sdk-aptos@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos/-/sdk-aptos-1.0.3.tgz#fe183d44e2ae988c3f4c9601b9ad136406003ce3"
+  integrity sha512-fE2SnqQs2zcrg6BnagBSAS6SlkXkcfZi7CWBsOrMgmEjuwKUBXyM/fjjUJPCHgDTWwUPd1j3Kr10gdhxDffmVw==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
     aptos "1.21.0"
 
 "@wormhole-foundation/sdk-base@1.0.2":
@@ -5545,59 +5123,66 @@
   dependencies:
     "@scure/base" "^1.1.3"
 
-"@wormhole-foundation/sdk-connect@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-connect/-/sdk-connect-1.0.2.tgz#16d68f2112fdc97679494935b6df63c10b6dac48"
-  integrity sha512-GjexGdI3ygUnZY7Q70fxPiJt+usgtqJvAU/oNRXOnskG66IBBvIvzwY25MGOkeDRhtk2x/FttACaQyoP/+26eg==
+"@wormhole-foundation/sdk-base@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-base/-/sdk-base-1.0.3.tgz#5eeac107a8b770f1e6f220e422b3b6865a2fb1c1"
+  integrity sha512-zhieqHzyopDN9Z60tqa1EBaJhjRsY56qgP9qpaXT7GkMgp5HI1j2msTaJrpVtVOnTKBt78uJXatKP7+pFDKiJA==
   dependencies:
-    "@wormhole-foundation/sdk-base" "1.0.2"
-    "@wormhole-foundation/sdk-definitions" "1.0.2"
+    "@scure/base" "^1.1.3"
+
+"@wormhole-foundation/sdk-connect@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-connect/-/sdk-connect-1.0.3.tgz#aaaf4a51554906e87be2eee87173f9414f9951f1"
+  integrity sha512-edXkPv2NDe1CSs9dcxC03lbknl1pI3YC/IEEmmn3BXD8xDL9wdvOsOzXifOhHAwUO8mGJiSVuTFRzfxiBIs56w==
+  dependencies:
+    "@wormhole-foundation/sdk-base" "1.0.3"
+    "@wormhole-foundation/sdk-definitions" "1.0.3"
     axios "^1.4.0"
 
-"@wormhole-foundation/sdk-cosmwasm-core@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-core/-/sdk-cosmwasm-core-1.0.2.tgz#be312d3b11845667c6691ddad7585221f8de8cca"
-  integrity sha512-LpEyKe2FphFYrZoYNuz0IpjGsb2iD7rJy3SQ1IyGjNwBH+5iAoUmhe8tL4gOV1t1NnJvhaQajaqCsoBJVFVfvg==
+"@wormhole-foundation/sdk-cosmwasm-core@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-core/-/sdk-cosmwasm-core-1.0.3.tgz#556c179ef2005c533bbacc3833dc354de4b9704e"
+  integrity sha512-RzrJktyotuHi/2esFFqFgoHqppIZfbjJizYVB6BNtYTGHu/3X9hTedVaMGyLzagAyaxWSCuS4OCN4K1LpqNX9g==
   dependencies:
     "@cosmjs/cosmwasm-stargate" "^0.32.0"
     "@cosmjs/stargate" "^0.32.0"
     "@injectivelabs/sdk-ts" "^1.14.13-beta.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-cosmwasm" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-cosmwasm" "1.0.3"
 
-"@wormhole-foundation/sdk-cosmwasm-ibc@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-ibc/-/sdk-cosmwasm-ibc-1.0.2.tgz#0c35a887d82e7bf00bf65d9405880c0bae5db282"
-  integrity sha512-ETjZ7sS2jMLZ2GvUCDAIbL71f4ctC1NUvA5cHbeEiRbCjqrpc0aJGmUIXownPt0wdQ1p3GFDLsK+VyTQwQ4+Zw==
+"@wormhole-foundation/sdk-cosmwasm-ibc@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-ibc/-/sdk-cosmwasm-ibc-1.0.3.tgz#9321387caec23f8887babb524428148edc8b375c"
+  integrity sha512-4SDKVr3/gLJUsvNwMFa74KbIdSW5tm4QQVEys/Y0PfRKSSmGlcn9hgj+e7wfvyR8t6TFjkllypuoJYe6o5dybA==
   dependencies:
     "@cosmjs/cosmwasm-stargate" "^0.32.0"
     "@cosmjs/stargate" "^0.32.0"
     "@injectivelabs/sdk-ts" "^1.14.13-beta.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-cosmwasm" "1.0.2"
-    "@wormhole-foundation/sdk-cosmwasm-core" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-cosmwasm" "1.0.3"
+    "@wormhole-foundation/sdk-cosmwasm-core" "1.0.3"
     cosmjs-types "^0.9.0"
 
-"@wormhole-foundation/sdk-cosmwasm-tokenbridge@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-tokenbridge/-/sdk-cosmwasm-tokenbridge-1.0.2.tgz#e86c947ac16d30ab30ddb62100ea9a72d01d956d"
-  integrity sha512-XD3j+RBC6NETSG8K+Z7SGwHawFqmbGtbMnzTeBeS5gxObtey95p6GNKiYbtrm9A13myvOlcINlGHbrttD/ZrZQ==
+"@wormhole-foundation/sdk-cosmwasm-tokenbridge@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-tokenbridge/-/sdk-cosmwasm-tokenbridge-1.0.3.tgz#ed302045327b419fc211bc7b26aaa3be2ef81dc9"
+  integrity sha512-DQU31rPOloLj3iBqsz9MAzNnCIawyN7mN0uCto441+RRMYGyyW/knVIY05rQyB/xDXXhuToCwQNxtEnu75uuwg==
   dependencies:
     "@cosmjs/cosmwasm-stargate" "^0.32.0"
     "@injectivelabs/sdk-ts" "^1.14.13-beta.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-cosmwasm" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-cosmwasm" "1.0.3"
 
-"@wormhole-foundation/sdk-cosmwasm@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm/-/sdk-cosmwasm-1.0.2.tgz#fe21e73bc483ca0f3d604d0027912a10651a397f"
-  integrity sha512-a6T7YHq7VPUEj6XGaHBSGKF6Ge/JrlYw4Yn5AynebaffAugNDLvOhRMBg7SEZckJUBWuzSgvp5i9b6hukJ0+5g==
+"@wormhole-foundation/sdk-cosmwasm@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm/-/sdk-cosmwasm-1.0.3.tgz#2683b45f60a852c250c6344702e993c1e3ec6d59"
+  integrity sha512-0nP9ZASRyrP/lyRGHof9QQNPLngoP/Ic0R8r+r9/UQyydJhNVzYLtf6YWMqUZzpkugFCpMhz04nKMocnto1I4A==
   dependencies:
     "@cosmjs/cosmwasm-stargate" "^0.32.0"
     "@cosmjs/proto-signing" "^0.32.0"
     "@cosmjs/stargate" "^0.32.0"
     "@injectivelabs/sdk-ts" "^1.14.13-beta.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
     cosmjs-types "^0.9.0"
 
 "@wormhole-foundation/sdk-definitions-ntt@0.5.0", "@wormhole-foundation/sdk-definitions-ntt@^0.5.0":
@@ -5605,31 +5190,31 @@
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-0.5.0.tgz#317656e9ededc0f5dbc48a65648fd8c8e23e45e3"
   integrity sha512-yqILlPdPNsk5zE1Z1DejLnhMZo+quGPO9fv+3Hfn3tXFMbj9S71yqOI/cgFryFB+xdff6XpM6VE+r1Qrl8I3Aw==
 
-"@wormhole-foundation/sdk-definitions@1.0.2", "@wormhole-foundation/sdk-definitions@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions/-/sdk-definitions-1.0.2.tgz#ddabbe13855556c82b071d4a043ccc7f874980d1"
-  integrity sha512-FdvBY3ksOKOviQki/JV90Hs/HnWFwlk/jDZsS3B3KyLet0H4+3yYaVTWYdhKhKa7mqLVL8yXCxH14XrFQhbPug==
+"@wormhole-foundation/sdk-definitions@1.0.3", "@wormhole-foundation/sdk-definitions@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions/-/sdk-definitions-1.0.3.tgz#f6208be3b21de7715759bb1370161f398c1ab5df"
+  integrity sha512-ni7msDLSCKOHSTyTTxEI9IPXlOtKtkpdyJ1i4LweOKP5qcncvLo4IJJU69C+kKc+8KwCpmz+VS+z9YAE6e+QHA==
   dependencies:
     "@noble/curves" "^1.4.0"
     "@noble/hashes" "^1.3.1"
-    "@wormhole-foundation/sdk-base" "1.0.2"
+    "@wormhole-foundation/sdk-base" "1.0.3"
 
-"@wormhole-foundation/sdk-evm-cctp@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-cctp/-/sdk-evm-cctp-1.0.2.tgz#c62c9fd5651363a0fceaf350b0a044ac5e36cb92"
-  integrity sha512-0/FPCeZd4iaHeZOYy2Uo0inqxVL86j0ghVFdckn8oBLbECgYNSe+/CT0IGouJBK6I9XvNgGOmZ+ECn3eLdHoXw==
+"@wormhole-foundation/sdk-evm-cctp@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-cctp/-/sdk-evm-cctp-1.0.3.tgz#50b559248e92bc7b10a6ffee6101fa8568078679"
+  integrity sha512-UfMyrZ4SNbKX+szw7NNPC8qSrP9jO3yEa+y2zVS67TyM0HB6/+pvg+vDaRN4H52kFmqRkIQDZjTNb7FbE5Z/ZA==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-evm" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-evm" "1.0.3"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-core@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-core/-/sdk-evm-core-1.0.2.tgz#9b197a8602aef726fd41e6aac2f75b184b270691"
-  integrity sha512-0NlCqKDdmSPgro9O+YTcLueCyYG0+WVQ4U75NV72oyIO9xFsJ+VmvLoMrrkOF4DpTo3A/7LqjOQw0Dd/9CDS7g==
+"@wormhole-foundation/sdk-evm-core@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-core/-/sdk-evm-core-1.0.3.tgz#d5c1ddf1b7e308cb4d6593df6850f2c8bbe5576c"
+  integrity sha512-jpk2kamEMP9TAhAOaaD+yJhGVKm3h8yfEUPdyBKAcUvBMuRmf1RY410Z1PPqW9fOLaynFmzukd44ITsh8wsnIQ==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-evm" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-evm" "1.0.3"
     ethers "^6.5.1"
 
 "@wormhole-foundation/sdk-evm-ntt@0.5.0", "@wormhole-foundation/sdk-evm-ntt@^0.5.0":
@@ -5640,33 +5225,33 @@
     "@wormhole-foundation/sdk-definitions-ntt" "0.5.0"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-portico@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-portico/-/sdk-evm-portico-1.0.2.tgz#972836094eee89334f71014aa729bbaffb959b3e"
-  integrity sha512-BNfZF68tuVESgLzwNuNtDJJCDPjd3971X49xPTtwhv5AZkZViF+jpRy1clkw/wpfLRr87fmi508VDOFpKGOlLg==
+"@wormhole-foundation/sdk-evm-portico@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-portico/-/sdk-evm-portico-1.0.3.tgz#ce15a83917535ba5b7f41ac12030bccecf1c4054"
+  integrity sha512-j0fXggpWb7OR4xDHiQtI5imd620akTVUMw7gL4TLYyAFg4nPDeXyLe3uG7uyfvMoJd6hhhSkVQE2AEZFok0WsA==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-evm" "1.0.2"
-    "@wormhole-foundation/sdk-evm-core" "1.0.2"
-    "@wormhole-foundation/sdk-evm-tokenbridge" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-evm" "1.0.3"
+    "@wormhole-foundation/sdk-evm-core" "1.0.3"
+    "@wormhole-foundation/sdk-evm-tokenbridge" "1.0.3"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-tokenbridge@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-tokenbridge/-/sdk-evm-tokenbridge-1.0.2.tgz#4fd69b2e09ef6ef7fd47cc552fc656e77f073e4a"
-  integrity sha512-Jva/nPSiiQy5f1f5fEMLAuG9s4wrhgkIZSiuNN1g5rXKhG2SvU3I5GwCkcsW9LYnj0liVUCagYBabYtwUeYtdA==
+"@wormhole-foundation/sdk-evm-tokenbridge@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-tokenbridge/-/sdk-evm-tokenbridge-1.0.3.tgz#3a3279e76a28a32a8034b0189caa85723a3e0896"
+  integrity sha512-2Fuxui8JET3chLs98WZAx2lqjGa4U8Gi3ulDFyCRGic/OkLRaWQhwKHW0+9qUYQgzbd5upvVBwMHtmcBzK3aiw==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-evm" "1.0.2"
-    "@wormhole-foundation/sdk-evm-core" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-evm" "1.0.3"
+    "@wormhole-foundation/sdk-evm-core" "1.0.3"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm/-/sdk-evm-1.0.2.tgz#0366d24fc6eb5454c271c8c4d0f3603ee4f337c9"
-  integrity sha512-8IQOwz7HlU/AYcdxUsgQcCT+DfVtW0U77eS+f1LYMqecbOddkzUP5+oiJvvkzNJoEg7JLwzreddYm+/3edv1dw==
+"@wormhole-foundation/sdk-evm@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm/-/sdk-evm-1.0.3.tgz#124345a2311c80b8bec02c6b171e47582ebce1ac"
+  integrity sha512-RI9t/s1AnuqMQzzGXjqCegKoOGo3RGH79uwj/u4xttkkQ2yxjZw8zXt/QwNQjBaa8F7OnOAMt9T5gAyl49BTGg==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
     ethers "^6.5.1"
 
 "@wormhole-foundation/sdk-icons@^1.0.0":
@@ -5685,27 +5270,27 @@
     "@wormhole-foundation/sdk-evm-ntt" "0.5.0"
     "@wormhole-foundation/sdk-solana-ntt" "0.5.0"
 
-"@wormhole-foundation/sdk-solana-cctp@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-cctp/-/sdk-solana-cctp-1.0.2.tgz#ca25db1ce367bc7f2823d5fa6d5351d32e30bc6f"
-  integrity sha512-UGzHFVwtHVjwu45O0MwYqEArTKNpFCIsX+Z/LEhwFY2SlGw1gpVFh0IOm9r7vyjXAfBuzvpqUR1E47+VUgjBeA==
+"@wormhole-foundation/sdk-solana-cctp@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-cctp/-/sdk-solana-cctp-1.0.3.tgz#585de38170459eaa068dd94716da6113f6ab3dc7"
+  integrity sha512-eyhvxRTcKwpj5KFWIbdyRN7xds16g/IT65ctJgUv5wdd+tEoESuVIK0Ad+11Ep5JtwmSdF6IiwcN0Sfl6ckG1Q==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@solana/spl-token" "0.3.9"
     "@solana/web3.js" "^1.95.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-solana" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-solana" "1.0.3"
 
-"@wormhole-foundation/sdk-solana-core@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-core/-/sdk-solana-core-1.0.2.tgz#8e0c5e6fe2189a62c8ee552ddb848e605d432cba"
-  integrity sha512-gASXO+InpYTLjsWqC2aXYNnqfcugMmuvECXk35w0uYiMO//i9+YHkerOzsWFZMXgORykfhU8oCJZhcEuvPrb2g==
+"@wormhole-foundation/sdk-solana-core@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-core/-/sdk-solana-core-1.0.3.tgz#f9356e77acfdb43b789ad0d49573ee3d3fdcc808"
+  integrity sha512-k65W7URd0vAw58UmIKibz+CkXijpVtAER46F9D+HZzSPGggcf/Ps9xfY285+fYMgAKSkyMqlLNrwsTR2STM/0w==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@coral-xyz/borsh" "0.29.0"
     "@solana/web3.js" "^1.95.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-solana" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-solana" "1.0.3"
 
 "@wormhole-foundation/sdk-solana-ntt@0.5.0", "@wormhole-foundation/sdk-solana-ntt@^0.5.0":
   version "0.5.0"
@@ -5719,92 +5304,92 @@
     "@wormhole-foundation/sdk-definitions-ntt" "0.5.0"
     bn.js "5.2.1"
 
-"@wormhole-foundation/sdk-solana-tokenbridge@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-tokenbridge/-/sdk-solana-tokenbridge-1.0.2.tgz#c3dc1607b5f2b121a0e4f29cd6ba3cc773e4bb96"
-  integrity sha512-NnH9BZHD+1qrV4qtfMoQHsBjyqfd0TrJ+8wEJPCYrIWrx9/N0QVvfJSjOXD1/v//h/TBxxacN7guYRXVIR5aiA==
+"@wormhole-foundation/sdk-solana-tokenbridge@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-tokenbridge/-/sdk-solana-tokenbridge-1.0.3.tgz#e09bb3c8af8d8557511165276a9e77d65c6f0bc8"
+  integrity sha512-2ifcR3PZu/ggGrkzqlbgMlEEEELWBzOJXpPhE4gmMdynXMlZYl5HYOcx4qBnOTI336VjawPnTG+EFc54VeJoZA==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@solana/spl-token" "0.3.9"
     "@solana/web3.js" "^1.95.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-solana" "1.0.2"
-    "@wormhole-foundation/sdk-solana-core" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-solana" "1.0.3"
+    "@wormhole-foundation/sdk-solana-core" "1.0.3"
 
-"@wormhole-foundation/sdk-solana@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana/-/sdk-solana-1.0.2.tgz#4735bfe92eb5dc2b4e2eea657eca699a04c719f3"
-  integrity sha512-xJo228xwNH02v1l4PGTFjRb4rcyJmT2abFtZBQwuWfyK/MifRLUaiH2t1svS22T58Hqv8wqU6E1DYFKtDAVSoQ==
+"@wormhole-foundation/sdk-solana@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana/-/sdk-solana-1.0.3.tgz#3d393163445c6fe0eed0b2264fe695654d96b12e"
+  integrity sha512-HRR13E9qfgoYpcijc+UZU16ZRfB01Z4GqXyc1HuNpQRMvkwGWzBaBZOcmehmCITvU8izIW7DhGgSLWXraWL3hg==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@coral-xyz/borsh" "0.29.0"
     "@solana/spl-token" "0.3.9"
     "@solana/web3.js" "^1.95.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
     rpc-websockets "^7.10.0"
 
-"@wormhole-foundation/sdk-sui-core@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-core/-/sdk-sui-core-1.0.2.tgz#57bd9d59c449e0f5d97d97a3e64cb8f307e2d544"
-  integrity sha512-nHAjDRhoILw43XGulWXszzqxw8c9Buo75Lv3BWoZwAdW8qFMUahpJIm/0QU1lwnum2IjQKwciJYlhGKQawKyRw==
+"@wormhole-foundation/sdk-sui-core@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-core/-/sdk-sui-core-1.0.3.tgz#1c9a5f56d14f73b064bdfa7560d0a8fd7a923768"
+  integrity sha512-5JzbJpg81XWKcY3HsCDX17dxaEgs8wMzDwZhNI2cnyBDXD8rhhDMcbTfiOLxygPtjjrplTMW6JE/QHurdXEJWw==
   dependencies:
     "@mysten/sui.js" "^0.50.1"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-sui" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-sui" "1.0.3"
 
-"@wormhole-foundation/sdk-sui-tokenbridge@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-tokenbridge/-/sdk-sui-tokenbridge-1.0.2.tgz#c9e0e0bcb70e025c16d5f547a2508f5a9de50a70"
-  integrity sha512-25pZTqo7X2dkAqte0QKDJRjO9r3DawwnYvmsQqEPzS/SZEDv7ndR6s8fYFBOwdAeS6j2ARbOpnrIbmb3Yo6AxQ==
+"@wormhole-foundation/sdk-sui-tokenbridge@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-tokenbridge/-/sdk-sui-tokenbridge-1.0.3.tgz#576c7b4ee21a49bebb69e7d3ea34a36d0a589837"
+  integrity sha512-lN8MLanfGUM7P3ISORITx9nYJTkFahrbd108pp8QTA6uA0kU4AW5FHLaNZoYxPGQZOhvQV6C94s3fQZFAYSi1w==
   dependencies:
     "@mysten/sui.js" "^0.50.1"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-sui" "1.0.2"
-    "@wormhole-foundation/sdk-sui-core" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-sui" "1.0.3"
+    "@wormhole-foundation/sdk-sui-core" "1.0.3"
 
-"@wormhole-foundation/sdk-sui@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui/-/sdk-sui-1.0.2.tgz#1563936f454c51c37c2fc0a8dca7273417b4e7a1"
-  integrity sha512-nrWPqw8IQnCg5KCWwjO1BIqM8ysxblEa4/MLOxQWl4O3COqz4B9+VMj8voJQTQ6JflchxG4Fnoua+bvib1XA0w==
+"@wormhole-foundation/sdk-sui@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui/-/sdk-sui-1.0.3.tgz#1b21036de4d68b457ed62fe775dab2f2b98f53e7"
+  integrity sha512-dsZ8ymv/sV0N6nmbcIquQJazBi1YNsqtKvIlhMqes0uS2iv+YvpPLfLKLzxn3KGWlXbteuJWdZtwOl/v3zhySQ==
   dependencies:
     "@mysten/sui.js" "^0.50.1"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
 
-"@wormhole-foundation/sdk@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk/-/sdk-1.0.2.tgz#4d2b17c843101cf17b6c55dea7bf92f3b91e2624"
-  integrity sha512-AhT+GyameQfWLojMi/fNbcxIWkJKz29so5puj3UdFdFMhLN6lIhJeiAWtcFrF+lk62MrJBlZ34hePQG+Ex6r6A==
+"@wormhole-foundation/sdk@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk/-/sdk-1.0.3.tgz#ea4c3d1122a188d1b35d450f61fd29455b7e8eb3"
+  integrity sha512-2R/6W0Cdhst74dsqFq+LzSHSn3/E+IYRAnRqeF3xRvYEjleEbuk1pLTtQ+cfJ/TFxefv/VwG4nrUdK42Kxaoqg==
   dependencies:
-    "@wormhole-foundation/sdk-algorand" "1.0.2"
-    "@wormhole-foundation/sdk-algorand-core" "1.0.2"
-    "@wormhole-foundation/sdk-algorand-tokenbridge" "1.0.2"
-    "@wormhole-foundation/sdk-aptos" "1.0.2"
-    "@wormhole-foundation/sdk-aptos-core" "1.0.2"
-    "@wormhole-foundation/sdk-aptos-tokenbridge" "1.0.2"
-    "@wormhole-foundation/sdk-base" "1.0.2"
-    "@wormhole-foundation/sdk-connect" "1.0.2"
-    "@wormhole-foundation/sdk-cosmwasm" "1.0.2"
-    "@wormhole-foundation/sdk-cosmwasm-core" "1.0.2"
-    "@wormhole-foundation/sdk-cosmwasm-ibc" "1.0.2"
-    "@wormhole-foundation/sdk-cosmwasm-tokenbridge" "1.0.2"
-    "@wormhole-foundation/sdk-definitions" "1.0.2"
-    "@wormhole-foundation/sdk-evm" "1.0.2"
-    "@wormhole-foundation/sdk-evm-cctp" "1.0.2"
-    "@wormhole-foundation/sdk-evm-core" "1.0.2"
-    "@wormhole-foundation/sdk-evm-portico" "1.0.2"
-    "@wormhole-foundation/sdk-evm-tokenbridge" "1.0.2"
-    "@wormhole-foundation/sdk-solana" "1.0.2"
-    "@wormhole-foundation/sdk-solana-cctp" "1.0.2"
-    "@wormhole-foundation/sdk-solana-core" "1.0.2"
-    "@wormhole-foundation/sdk-solana-tokenbridge" "1.0.2"
-    "@wormhole-foundation/sdk-sui" "1.0.2"
-    "@wormhole-foundation/sdk-sui-core" "1.0.2"
-    "@wormhole-foundation/sdk-sui-tokenbridge" "1.0.2"
+    "@wormhole-foundation/sdk-algorand" "1.0.3"
+    "@wormhole-foundation/sdk-algorand-core" "1.0.3"
+    "@wormhole-foundation/sdk-algorand-tokenbridge" "1.0.3"
+    "@wormhole-foundation/sdk-aptos" "1.0.3"
+    "@wormhole-foundation/sdk-aptos-core" "1.0.3"
+    "@wormhole-foundation/sdk-aptos-tokenbridge" "1.0.3"
+    "@wormhole-foundation/sdk-base" "1.0.3"
+    "@wormhole-foundation/sdk-connect" "1.0.3"
+    "@wormhole-foundation/sdk-cosmwasm" "1.0.3"
+    "@wormhole-foundation/sdk-cosmwasm-core" "1.0.3"
+    "@wormhole-foundation/sdk-cosmwasm-ibc" "1.0.3"
+    "@wormhole-foundation/sdk-cosmwasm-tokenbridge" "1.0.3"
+    "@wormhole-foundation/sdk-definitions" "1.0.3"
+    "@wormhole-foundation/sdk-evm" "1.0.3"
+    "@wormhole-foundation/sdk-evm-cctp" "1.0.3"
+    "@wormhole-foundation/sdk-evm-core" "1.0.3"
+    "@wormhole-foundation/sdk-evm-portico" "1.0.3"
+    "@wormhole-foundation/sdk-evm-tokenbridge" "1.0.3"
+    "@wormhole-foundation/sdk-solana" "1.0.3"
+    "@wormhole-foundation/sdk-solana-cctp" "1.0.3"
+    "@wormhole-foundation/sdk-solana-core" "1.0.3"
+    "@wormhole-foundation/sdk-solana-tokenbridge" "1.0.3"
+    "@wormhole-foundation/sdk-sui" "1.0.3"
+    "@wormhole-foundation/sdk-sui-core" "1.0.3"
+    "@wormhole-foundation/sdk-sui-tokenbridge" "1.0.3"
 
-"@wormhole-foundation/wormhole-connect@1.1.4-beta.0-development":
-  version "1.1.4-beta.0-development"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/wormhole-connect/-/wormhole-connect-1.1.4-beta.0-development.tgz#b689a2f81b5cc4a881e2a366e6d1e7f01e8b95c6"
-  integrity sha512-eoZb6BPQSD6TScdI+hB42hqGmeSaENbkhMOLHnRrerH1Q+aPLxTNbKdPBfjnyklgThrHhE0THEWv8uTK9yZKeQ==
+"@wormhole-foundation/wormhole-connect@1.1.4-beta.2-development":
+  version "1.1.4-beta.2-development"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/wormhole-connect/-/wormhole-connect-1.1.4-beta.2-development.tgz#4e8589af49967f570f4c148ca327c05cad7c5d66"
+  integrity sha512-uJ4Er2nUaoVwNbEpl6HHdfIrWU+cXBQUx6DVM/NkYvTlGON2NsBUQJS/GVAzMLprkS2spPuunpp8DzyfB3tedA==
   dependencies:
     "@coral-xyz/anchor" "^0.29.0"
     "@cosmjs/cosmwasm-stargate" "^0.31.3"
@@ -5829,8 +5414,8 @@
     "@solana/spl-token" "^0.3.9"
     "@solana/wallet-adapter-wallets" "^0.19.25"
     "@solana/web3.js" "^1.95.2"
-    "@wormhole-foundation/sdk" "^1.0.0"
-    "@wormhole-foundation/sdk-definitions" "^1.0.0"
+    "@wormhole-foundation/sdk" "^1.0.3"
+    "@wormhole-foundation/sdk-definitions" "^1.0.3"
     "@wormhole-foundation/sdk-definitions-ntt" "^0.5.0"
     "@wormhole-foundation/sdk-evm-ntt" "^0.5.0"
     "@wormhole-foundation/sdk-icons" "^1.0.0"
@@ -5838,10 +5423,7 @@
     "@wormhole-foundation/sdk-solana-ntt" "^0.5.0"
     "@xlabs-libs/wallet-aggregator-aptos" "^0.0.1-alpha.14"
     "@xlabs-libs/wallet-aggregator-core" "^0.0.1-alpha.18"
-    "@xlabs-libs/wallet-aggregator-cosmos" "^0.0.1-alpha.14"
-    "@xlabs-libs/wallet-aggregator-cosmos-evm" "^0.0.1-alpha.6"
     "@xlabs-libs/wallet-aggregator-evm" "^0.0.2-alpha.2"
-    "@xlabs-libs/wallet-aggregator-sei" "^0.0.1-alpha.14"
     "@xlabs-libs/wallet-aggregator-solana" "^0.0.1-alpha.15"
     "@xlabs-libs/wallet-aggregator-sui" "^0.0.1-alpha.10"
     aptos "1.5.0"
@@ -5913,22 +5495,6 @@
   dependencies:
     eventemitter3 "^5.0.0"
 
-"@xlabs-libs/wallet-aggregator-cosmos-evm@^0.0.1-alpha.6":
-  version "0.0.1-alpha.8"
-  resolved "https://registry.yarnpkg.com/@xlabs-libs/wallet-aggregator-cosmos-evm/-/wallet-aggregator-cosmos-evm-0.0.1-alpha.8.tgz#086f62639e362574178473125b89d225c25a8c82"
-  integrity sha512-3HCF67fBWX/UNfAcd06OqFb/5LXp/ACKuhT7+8dnTOJnhh2zk0XaBCmRjXoOqj9j3eBP5D9eiOBhnuBkoAiRbA==
-  dependencies:
-    "@injectivelabs/sdk-ts" "1.14.0-beta.1"
-    "@xlabs-libs/wallet-aggregator-core" "^0.0.1-alpha.21"
-    "@xlabs-libs/wallet-aggregator-cosmos" "^0.0.1-alpha.16"
-
-"@xlabs-libs/wallet-aggregator-cosmos@^0.0.1-alpha.14", "@xlabs-libs/wallet-aggregator-cosmos@^0.0.1-alpha.16":
-  version "0.0.1-alpha.16"
-  resolved "https://registry.yarnpkg.com/@xlabs-libs/wallet-aggregator-cosmos/-/wallet-aggregator-cosmos-0.0.1-alpha.16.tgz#4eb75d626250d4110df93531f8f958b7afa70cf5"
-  integrity sha512-kq7YoGTu9C9A7ZE/Pz9X4vUs7auk9EIx1SoUfY3aL/ALvIRX0myRkkNR9x3WdQYY2Co72J6EwJw1NTINb5od6A==
-  dependencies:
-    "@xlabs-libs/wallet-aggregator-core" "^0.0.1-alpha.21"
-
 "@xlabs-libs/wallet-aggregator-evm@^0.0.2-alpha.2":
   version "0.0.2-alpha.4"
   resolved "https://registry.yarnpkg.com/@xlabs-libs/wallet-aggregator-evm/-/wallet-aggregator-evm-0.0.2-alpha.4.tgz#8aa245a6be1e0b855457bf2c7b9d92dbe631c5aa"
@@ -5943,14 +5509,6 @@
     ethers "^6.4.2"
     versions "^10.4.1"
     viem "^1.20.3"
-
-"@xlabs-libs/wallet-aggregator-sei@^0.0.1-alpha.14":
-  version "0.0.1-alpha.14"
-  resolved "https://registry.yarnpkg.com/@xlabs-libs/wallet-aggregator-sei/-/wallet-aggregator-sei-0.0.1-alpha.14.tgz#237a410a6eb21521979646097bb80ebe3c8577d2"
-  integrity sha512-XFIajyI1JwByP8qu18HCtdnAey2Mkwm17XKKFYu2T2cmQjouyBpBIaaP5mphYwmLs2biq7lLWq6O97+aSFa5zw==
-  dependencies:
-    "@sei-js/core" "^3.1.0"
-    "@xlabs-libs/wallet-aggregator-core" "^0.0.1-alpha.18"
 
 "@xlabs-libs/wallet-aggregator-solana@^0.0.1-alpha.15":
   version "0.0.1-alpha.16"
@@ -6905,30 +6463,6 @@ cosmiconfig@^7.0.0:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
-
-cosmjs-types@0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/cosmjs-types/-/cosmjs-types-0.5.1.tgz#f9bc35e78c32b687fb6018dc573eb454b3ae2587"
-  integrity sha512-NcC58xUIVLlKdIimWWQAmSlmCjiMrJnuHf4i3LiD8PCextfHR0fT3V5/WlXZZreyMgdmh6ML1zPUfGTbbo3Z5g==
-  dependencies:
-    long "^4.0.0"
-    protobufjs "~6.11.2"
-
-cosmjs-types@^0.4.0:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/cosmjs-types/-/cosmjs-types-0.4.1.tgz#3b2a53ba60d33159dd075596ce8267cfa7027063"
-  integrity sha512-I7E/cHkIgoJzMNQdFF0YVqPlaTqrqKHrskuSTIqlEyxfB5Lf3WKCajSXVK2yHOfOFfSux/RxEdpMzw/eO4DIog==
-  dependencies:
-    long "^4.0.0"
-    protobufjs "~6.11.2"
-
-cosmjs-types@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/cosmjs-types/-/cosmjs-types-0.5.2.tgz#2d42b354946f330dfb5c90a87fdc2a36f97b965d"
-  integrity sha512-zxCtIJj8v3Di7s39uN4LNcN3HIE1z0B9Z0SPE8ZNQR0oSzsuSe1ACgxoFkvhkS7WBasCAFcglS11G2hyfd5tPg==
-  dependencies:
-    long "^4.0.0"
-    protobufjs "~6.11.2"
 
 cosmjs-types@^0.7.1:
   version "0.7.2"
@@ -8900,7 +8434,7 @@ long@^4.0.0:
   resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
   integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
 
-long@^5.0.0, long@^5.2.0:
+long@^5.0.0:
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/long/-/long-5.2.3.tgz#a3ba97f3877cf1d778eccbcb048525ebb77499e1"
   integrity sha512-lcHwpNoggQTObv5apGNCTdJrO69eHOZMi4BNC+rTLER8iHAqGrUVeLh/irVIM7zTw2bOXA8T6uNPeujwOLg/2Q==
@@ -9087,11 +8621,6 @@ mlly@^1.7.1, mlly@^1.7.2:
     pathe "^1.1.2"
     pkg-types "^1.2.0"
     ufo "^1.5.4"
-
-moment@^2.30.1:
-  version "2.30.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz#f8c91c07b7a786e30c59926df530b4eac96974ae"
-  integrity sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==
 
 motion@10.16.2:
   version "10.16.2"
@@ -9694,7 +9223,7 @@ protobufjs@7.4.0, protobufjs@^7.0.0:
     "@types/node" ">=13.7.0"
     long "^5.0.0"
 
-protobufjs@^6.11.2, protobufjs@^6.11.3, protobufjs@^6.8.8, protobufjs@~6.11.2, protobufjs@~6.11.3:
+protobufjs@^6.8.8, protobufjs@~6.11.2, protobufjs@~6.11.3:
   version "6.11.4"
   resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-6.11.4.tgz#29a412c38bf70d89e537b6d02d904a6f448173aa"
   integrity sha512-5kQWPaJHi1WoCpjTGszzQ32PG2F4+wRY6BmAT4Vfw56Q2FZ4YZzK20xUYQH4YkfehY1e6QSICrJquM6xXZNcrw==
