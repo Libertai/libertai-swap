@@ -33,35 +33,36 @@ export const WormholeInterface = () => (
 			},
 			tokensConfig: {
 				LTAIbase: {
-					key: "LTAIbase",
 					symbol: "LTAI",
-					nativeChain: "Base",
+					name: "LTAIbase",
+					decimals: 18,
 					icon: "https://libertai.io/favicon.svg",
 					tokenId: {
 						chain: "Base",
 						address: "0xF8B1b47AA748F5C7b5D0e80C726a843913EB573a",
 					},
-					coinGeckoId: "libertai",
-					decimals: 18,
 				},
 				LTAIsol: {
-					key: "LTAIsol",
 					symbol: "LTAI",
-					nativeChain: "Solana",
+					name: "LTAIsol",
+					decimals: 9,
 					icon: "https://libertai.io/favicon.svg",
 					tokenId: {
 						chain: "Solana",
 						address: "mntpN8z1d29f3MWhMD7VqZFpeYmbD88MgwS3Bkz8y7u",
 					},
-					coinGeckoId: "libertai",
-					decimals: 9,
+					
 				},
 			},
 			ui: {
 				title: "LibertAI swap",
-				showHamburgerMenu: false,
 				menu: [],
-				defaultInputs: { fromChain: "Base", toChain: "Solana" },
+				defaultInputs: {
+				  fromChain: "Base",
+					toChain: "Solana",
+					fromToken: "0xF8B1b47AA748F5C7b5D0e80C726a843913EB573a",
+					toToken: "mntpN8z1d29f3MWhMD7VqZFpeYmbD88MgwS3Bkz8y7u"
+				},
 			},
 		}}
 	/>
