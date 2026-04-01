@@ -1,4 +1,5 @@
-import WormholeConnect, { nttRoutes } from "@wormhole-foundation/wormhole-connect";
+import WormholeConnect from "@wormhole-foundation/wormhole-connect";
+import { nttRoutes } from "@wormhole-foundation/wormhole-connect/ntt";
 
 export const WormholeInterface = () => (
 	<WormholeConnect
